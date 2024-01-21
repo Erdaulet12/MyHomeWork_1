@@ -16,6 +16,7 @@ def plus_two(number):
         return result
     except TypeError:
         print("Ожидаемый тип данных — число!")
+        return None
 
 
 if __name__ == "__main__":
